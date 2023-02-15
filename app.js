@@ -44,6 +44,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //  Routes
 app.use("/", require("./routes/mainpageroutes"));
+app.use("/blog", require("./routes/blogroutes"));
 
 //Error 404 page
 app.get("/*", (req, res) => {

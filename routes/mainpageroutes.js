@@ -83,4 +83,9 @@ router.get(["/privacy-policy", "/Privacy-Policy", "PrivacyPolicy", "Policy"], (r
     return res.status(200).render("../views/terms_and_conditions/privacy-policy.ejs", { title: "Privacy Policy  - TaxManager.In" });
 });
 
+
+// Route Blogs 
+
+
+
 module.exports = router;
