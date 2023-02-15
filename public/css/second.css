@@ -1,0 +1,146 @@
+.top-head {
+    background: #aad976
+}
+
+.top-head ul {
+    padding: 0;
+    list-style: none;
+    margin: 0
+}
+
+.top-head ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: 600;
+    border-right: 2px solid #fff;
+    margin: 0;
+    transition: .5s all ease;
+    width: auto
+}
+
+.top-head ul li a {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 30px;
+    font-weight: 600;
+    transition: .5s all ease
+}
+
+.top-head ul li span {
+    margin-right: 10px;
+    font-weight: 900
+}
+
+.top-head ul li:last-child {
+    border-right: unset;
+    margin: 0
+}
+
+.top-head .right-nav {
+    text-align: right
+}
+
+.top-head .right-nav li:last-child {
+    background: #efa434;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    float: right;
+    width: auto;
+    gap: 20px;
+    align-content: center;
+    align-items: center
+}
+
+.top-head ul li:hover {
+    background: #003f72;
+    cursor: pointer;
+    transition: .5s all ease
+}
+
+.top-head ul li:hover a {
+    font-weight: 600;
+    transition: .5s all ease;
+    color: #fff
+}
+
+.top-head .right-nav li:hover:last-child {
+    background: #003f72;
+    color: #fff
+}
+
+nav ul li a {
+    font-family: Roboto, sans-serif;
+    position: relative;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 13px;
+    cursor: pointer;
+    color: #000
+}
+
+nav {
+    position: relative;
+    margin: 0;
+    width: auto!important;
+    text-align: right;
+    padding: 0
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+nav ul li {
+    width: auto;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 5px
+}
+
+.logo {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative
+}
+
+header .row {
+    justify-content: space-between;
+    align-items: center
+}
+
+header {
+    position: relative;
+    padding: 10px 0
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%
+}
+
+.banner img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.slider {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px
+}
+
+.slider,
+header {
+    background: #f3f6f7
+}
